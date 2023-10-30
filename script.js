@@ -1,0 +1,16 @@
+document.querySelector('.cross').style.display='none';
+document.querySelector('.hamburger').addEventListener("click",()=>
+{
+    document.querSelector('.sidebar').classList.toggle('sidebarGol');
+    if(document.querSelector('.sidebar').classList.toggle('sidebarGol'))
+    {
+        document.querSelector('.ham').style.display="inline";
+        document.querSelector('.cross').style.display="none";
+    }
+    else
+    {
+        document.querSelector('.ham').style.display="none";
+        document.querSelector('.cross').style.display="inline";
+    }
+}
+);
